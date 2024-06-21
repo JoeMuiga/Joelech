@@ -1,0 +1,10 @@
+    #page
+        {
+            margin: 2.5%;
+            height: 95vh;
+            width: 95vw;
+            border-radius: 12%;
+            display: grid;
+            justify-content: space-around;
+            align-items: center;
+        }
