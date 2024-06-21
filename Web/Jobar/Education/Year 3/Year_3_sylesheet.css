@@ -1,0 +1,20 @@
+    #page
+        {
+            margin: 2.5%;
+            height: 95vh;
+            width: 95vw;
+            border-radius: 12%;
+            display: grid;
+            grid-template-rows: 2fr 2fr;
+            justify-content: space-around;
+            align-items: center;
+        }
+        #selection
+        {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+        }
+        #semester
+        {
+            border: black solid 1px;
+        }
