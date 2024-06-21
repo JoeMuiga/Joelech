@@ -1,0 +1,49 @@
+#page
+        {
+            margin: 2.5%;
+            height: 95vh;
+            width: 95vw;
+            border-radius: 12%;
+            display: grid;
+            grid-template-rows: 3fr 2fr 1fr;
+        }
+        .title
+        {
+            font-size: 8vw;
+            font-family: 'Chilanka','Arimo';
+            font-weight: 800;
+        }
+        #comment
+        {
+            font-size: large;
+            font-weight: 600;
+            font-family: 'Chandas';
+            justify-items: end;
+        }
+        #layer_1
+        {
+            margin: 5%;
+            display: grid;
+            grid-template-columns: 2fr 4fr;
+            justify-content: center;
+            align-items: center;
+        }
+        #layer_2
+        {
+            margin: 5%;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+            font-family: 'Chandas';
+        }
+        #layer_3
+        {
+            margin: 5%;
+        }
+        .navigation
+        {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            align-items: center;
+            justify-items: center;
+        }
