@@ -1,0 +1,59 @@
+    body
+        {
+            display: grid;
+            height: 100vh;
+            width: 100vw;
+            justify-content: stretch;
+            align-items: stretch;
+            color: white;
+        }
+        .page
+        {
+            height: 97vh;
+            width: 97vw;
+            background-image: url(Media/Joelech%20Background%20dynamic.png);
+            font-size: 3vh;
+            display: grid;
+            grid-template-rows: 2fr 6fr 2fr;
+            margin: 1%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .education_level
+        {
+            height: 50vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-content: center;
+            
+        }
+        .title_page
+        {
+            height: 90%;   
+            margin: 3%;
+            display: grid;
+            grid-template-rows: 1fr 1fr ;
+            grid-template-columns: 1fr 1fr;
+            justify-items: center;
+            align-items: center;
+        }
+        .title
+        {
+            font-size: 3vh;
+            justify-self: stretch;
+            margin: 3%;
+        }
+        .comment
+        {
+            font-size: 2vw;
+            padding: 3vw;
+        }
+        .navigation
+        {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            margin:5%;
+        }
