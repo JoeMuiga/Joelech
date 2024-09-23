@@ -1,0 +1,55 @@
+        body
+        {
+            height: 100%;
+            width: 100%;
+        }
+        #page
+        {
+            margin: 2.5%;
+            height: 95vh;
+            width: 95%;
+            background-color: #80d1d6;
+            display: grid;
+            grid-template-rows: 2fr 2fr;
+            align-content: center;
+            row-gap: 5vw;
+        }
+        #jobar
+        {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 15vw;
+            padding: 5vw;
+        }
+        img
+        {
+            height: 20vw;
+            width: 15vh;
+        }
+        #resources
+        {
+            display: grid;
+            grid-template-columns: 3fr 2fr;
+            padding: 5vw;
+        }
+        #comment
+        {
+            font-size: 3vw;
+        }
+        #navigation
+        {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            margin-top: 50%;;
+            justify-content: space-around;
+            align-content: space-around;
+            background-color: #e7a572;
+            color: #eaf1e0;
+        }
+        div
+        {
+            display: grid;
+            align-items: center;
+            justify-items: center;
+        }
