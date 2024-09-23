@@ -1,0 +1,63 @@
+        .{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            outline: none;
+            scroll-behavior: smooth;
+        }
+        :root
+        { 
+            --bg-color: #000;
+            --snd-bg-color: #111;
+            --main-color: #FAF8EA;
+        }
+        body
+        {
+            height: 100%;
+            width: 100%;
+        }
+        #page
+        {
+            margin: 1%;
+            height: 98vh;
+            width: 98vw;
+            background-color: #80d1d6;
+            display: grid;
+            grid-template-rows: 2fr 1fr;
+        }
+        #prog_lingu
+        {
+            display: flex;
+            flex-direction: row;
+            font-size: 15vh;
+            padding: 0;
+        }
+        #resources
+        {
+            display: grid;
+            grid-template-columns: 3fr 2fr;
+            padding: 0;
+        }
+        #comment
+        {
+            font-size: 3vw;
+        }
+        #navigation
+        {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            justify-content: space-around;
+            align-content: space-around;
+            color: white;
+        }
+        div
+        {
+            display: grid;
+            align-items: center;
+            justify-items: center;
+        }
+img{
+height: 20vh;
+width: 20vw;
+padding: 0;
+}
