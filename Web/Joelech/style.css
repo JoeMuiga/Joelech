@@ -36,7 +36,7 @@ body
     justify-content: space-evenly;
     align-items: start;
     gap: 0;
-    background-image: url(https://github.com/JoeMuiga/Joelech/blob/main/Web/Joelech/Media/Joelech%20Background%20dynamic.png);
+    background-image: url(Media/Joelech%20Background%20dynamic.png);
     background-attachment: fixed;
     background-position: 0;
 }
