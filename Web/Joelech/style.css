@@ -149,3 +149,8 @@ body {
 .marquee-content a:hover {
     color: #007bff;
 }
+#links
+{
+display: grid;
+grid-template-columns: 1fr 3fr;
+}
