@@ -154,3 +154,7 @@ body {
 display: grid;
 grid-template-columns: 1fr 3fr;
 }
+#joelech_Image{
+    height: 10vh;
+    width: 10vw;
+}
