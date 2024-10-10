@@ -46,11 +46,13 @@
             font-size: 3vh;
             justify-self: stretch;
             margin: 3%;
+            color: white;
         }
         .comment
         {
             font-size: 2vw;
             padding: 3vw;
+            color: white;
         }
         .navigation
         {
