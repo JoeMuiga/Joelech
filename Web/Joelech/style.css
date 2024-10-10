@@ -127,6 +127,7 @@ body {
 .marquee-content {
     display: inline-block;
     margin-top: 0%;
+    width: 50%;
 }
 /* Keyframe for continuous scrolling animation */
 @keyframes continuousScroll {
