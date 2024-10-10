@@ -3,7 +3,6 @@
             margin: 2.5%;
             height: 95vh;
             width: 95vw;
-            border-radius: 12%;
             display: grid;
             grid-template-rows: 1fr 5fr 2fr;
             background-image: url(https://joemuiga.github.io/Joelech/Web/Joelech/Media/Joelech\ Background\ dynamic.png);
