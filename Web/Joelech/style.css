@@ -161,8 +161,8 @@ grid-template-columns: 1fr 4fr;
 /* General Styling */
 
 #Joelech_Image{
-    height: 25vh;
-    width: 25vw;
+    height: 30vh;
+    width: 30vw;
     background-color: black;
     display: flex;
     justify-content: center;
@@ -170,8 +170,8 @@ grid-template-columns: 1fr 4fr;
     justify-items: center;
 }
 #Joelech_Image img{
-    height: 20vh;
-    width: 20vw;
+    height: 25vh;
+    width: 25vw;
     background-color: white;
 }
 
