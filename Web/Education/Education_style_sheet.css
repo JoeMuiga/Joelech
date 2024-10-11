@@ -5,7 +5,6 @@
             width: 100vw;
             justify-content: stretch;
             align-items: stretch;
-            color: white;
         }
         .page
         {
@@ -20,7 +19,6 @@
             flex-direction: column;
             justify-content: center;
             align-items: center;
-            color: white;
         }
         .education_level
         {
@@ -29,7 +27,7 @@
             flex-direction: column;
             justify-content: center;
             align-content: center;
-            
+            color: white;
         }
         .title_page
         {
@@ -40,19 +38,18 @@
             grid-template-columns: 1fr 1fr;
             justify-items: center;
             align-items: center;
+            color: white;
         }
         .title
         {
             font-size: 3vh;
             justify-self: stretch;
             margin: 3%;
-            color: white;
         }
         .comment
         {
             font-size: 2vw;
             padding: 3vw;
-            color: white;
         }
 /* General Styling */
 
