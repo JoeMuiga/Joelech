@@ -30,3 +30,20 @@
         }
         #J{font-size: 2vw; }#o{font-size: 3vw;}#e{font-size: 4vw;}#l{font-size: 5vw;}#e{font-size: 4vw;}#c{font-size: 3vw;}#h{font-size: 2vw;}
         a{text-underline-offset: off;}
+/* General Styling */
+
+#Joelech_Image{
+    height: 25vh;
+    width: 25vw;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+}
+#Joelech_Image img{
+    height: 20vh;
+    width: 20vw;
+    background-color: white;
+}
+
