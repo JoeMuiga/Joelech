@@ -9,8 +9,8 @@
         }
         .page
         {
-            height: 97vh;
-            width: 97vw;
+            height: 95vh;
+            width: 95vw;
             background-image: url(Media/Joelech%20Background%20dynamic.png);
             font-size: 3vh;
             display: grid;
@@ -24,7 +24,7 @@
         }
         .education_level
         {
-            height: 50vh;
+            height: 30vh;
             display: flex;
             flex-direction: column;
             justify-content: center;
