@@ -10,3 +10,19 @@
             align-items: center;
             background-image: url(https://joemuiga.github.io/Joelech/Web/Joelech/Joelech_background.jpg);
         }
+/* General Styling */
+
+#Joelech_Image{
+    height: 25vh;
+    width: 25vw;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+}
+#Joelech_Image img{
+    height: 20vh;
+    width: 20vw;
+    background-color: white;
+}
