@@ -140,7 +140,7 @@ body {
 }
 /* Continuous scrolling */
 .marquee-active .marquee-content {
-    animation: continuousScroll 60s linear infinite;
+    animation: continuousScroll 45s linear infinite;
 }
 .marquee-content a {
     margin: 0 1%;
