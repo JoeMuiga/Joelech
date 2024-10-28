@@ -1,0 +1,65 @@
+    body
+        {
+            height: 100%;
+            width: 100%;
+        }
+        #page
+        {
+            margin: 2.5%;
+            height: 95vh;
+            width: 95%;
+            background-image: url(Joelech\ Background\ dynamic.png);
+            display: grid;
+            grid-template-rows: 2fr 2fr 1fr;
+            align-content: center;
+            color: white;
+            font-size: 2vi;
+        }
+        .title h1{
+            color: white;
+            font-size: 5vi;
+            margin: 5%;
+        }
+        .channels
+        {
+            display: grid;
+        }
+        .platforms
+        {
+            display: grid;
+            padding: 2vw;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            grid-template-rows: 1fr 1fr 1fr 1fr;
+        }
+        div
+        {
+            display: grid;
+            justify-content: space-around;
+        }
+        .navigation
+        {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            justify-content: space-around;
+            align-content: space-around;
+            color: #eaf1e0;
+        }
+        .channels img{
+            height: 5vh;
+            width: 5vw;
+        }
+        .channels img:hover{
+            scale: 1.05;
+        }
+        .platforms div{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-content: center;
+            align-items: center;
+            justify-items: center;
+
+        }
+a{
+    color: white;
+}
