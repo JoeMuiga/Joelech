@@ -21,7 +21,7 @@
             margin: 1%;
             height: 98vh;
             width: 98vw;
-            background-color: #80d1d6;
+            background-color: purple;
             display: grid;
             grid-template-rows: 2fr 1fr;
         }
