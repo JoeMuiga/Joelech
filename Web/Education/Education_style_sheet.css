@@ -13,7 +13,7 @@
             background-image: url(Media/Joelech%20Background%20dynamic.png);
             font-size: 3vh;
             display: grid;
-            grid-template-rows: 2fr 6fr 2fr;
+            grid-template-rows: 3fr 6fr 3fr;
             margin: 1%;
             display: flex;
             flex-direction: column;
