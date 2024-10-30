@@ -8,14 +8,12 @@
         }
         .page
         {
-            height: 95vh;
             width: 95vw;
             background-image: url(Media/Joelech%20Background%20dynamic.png);
             font-size: 3vh;
             display: flex;
             flex-dirextion: column;
             margin: 1%;
-            flex-direction: column;
             justify-content: center;
             align-items: center;
         }
