@@ -90,6 +90,25 @@
     width: 20vw;
     background-color: white;
 }
+.channels img{
+            height: 5vh;
+            width: 5vw;
+        }
+        .channels img:hover{
+            scale: 1.05;
+        }
+        .platforms div{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-content: center;
+            align-items: center;
+            justify-items: center;
+
+        }
+a{
+    color: white;
+}
 
 
         div
