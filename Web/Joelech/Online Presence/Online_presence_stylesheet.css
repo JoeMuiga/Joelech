@@ -1,12 +1,10 @@
     body
         {
-            height: 100%;
             width: 100%;
         }
         #page
         {
             margin: 2.5%;
-            height: 95vh;
             width: 95%;
             background-image: url(Joelech\ Background\ dynamic.png);
             display: grid;
