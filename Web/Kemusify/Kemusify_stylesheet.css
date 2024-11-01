@@ -33,11 +33,6 @@
             font-size: 15vw;
             padding: 5vw;
         }
-        img
-        {
-            height: 15vw;
-            width: 20vh;
-        }
         #resources
         {
             display: grid;
@@ -90,7 +85,7 @@
     width: 20vw;
     background-color: white;
 }
-.channels img{
+img{
             height: 5vh;
             width: 5vw;
         }
