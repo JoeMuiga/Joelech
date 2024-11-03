@@ -71,3 +71,7 @@
             grid-template-columns: 1fr 1fr 1fr;
             margin:5%;
         }
+img{
+    height: 50vh;
+    width: 50vw;
+}
