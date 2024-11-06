@@ -141,6 +141,7 @@ body {
 /* Continuous scrolling */
 .marquee-active .marquee-content {
     animation: continuousScroll 15s linear infinite;
+    width: 50%;
 }
 .marquee-content a {
     margin: 0 1%;
