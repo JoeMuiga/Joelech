@@ -29,7 +29,7 @@ body
 #page
 {
     margin: 2.5%;
-    height: 65vh;
+    height: 60vh;
     width: 90vw;
     border-radius: 50%;
     display: grid;
@@ -120,14 +120,13 @@ body {
 .marquee-container {
     overflow: hidden;
     white-space: nowrap;
-    width: 50%;
+    width: 100%;
     margin-top: 0%;
     display: none; /* Hidden by default */
 }
 .marquee-content {
     display: inline-block;
     margin-top: 0%;
-    width: 50%;
 }
 /* Keyframe for continuous scrolling animation */
 @keyframes continuousScroll {
@@ -140,8 +139,7 @@ body {
 }
 /* Continuous scrolling */
 .marquee-active .marquee-content {
-    animation: continuousScroll 15s linear infinite;
-    width: 50%;
+    animation: continuousScroll 45s linear infinite;
 }
 .marquee-content a {
     margin: 0 1%;
@@ -151,20 +149,11 @@ body {
 .marquee-content a:hover {
     color: #007bff;
 }
-#links
-{
-display: grid;
-grid-template-columns: 1fr 4fr;
-}
-#joelech_Image{
-    height: 10vh;
-    width: 10vw;
-}
 /* General Styling */
 
 #Joelech_Image{
-    height: 30vh;
-    width: 30vw;
+    height: 25vh;
+    width: 25vw;
     background-color: black;
     display: flex;
     justify-content: center;
@@ -172,8 +161,17 @@ grid-template-columns: 1fr 4fr;
     justify-items: center;
 }
 #Joelech_Image img{
-    height: 25vh;
-    width: 25vw;
+    height: 20vh;
+    width: 20vw;
     background-color: white;
 }
-
+#links{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
+    align-items: center;
+    margin: 1%;
+    padding: 1%;
+    gap: 2%;
+}
