@@ -120,7 +120,7 @@ body {
 .marquee-container {
     overflow: hidden;
     white-space: nowrap;
-    width: 25%;
+    width: 75%;
     margin-top: 0%;
     display: none; /* Hidden by default */
 }
