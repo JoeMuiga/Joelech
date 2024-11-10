@@ -40,3 +40,40 @@ function startAlternatingColorChange() {
 }
 
 startAlternatingColorChange(); // Start immediately
+document.addEventListener("DOMContentLoaded", function() {
+    const nameForm = document.getElementById("nameForm");
+    const nameInput = document.getElementById("nameInput");
+    const message = document.getElementById("message");
+    const savedNamesList = document.getElementById("savedNamesList");
+
+    // Load previously saved names from localStorage
+    const savedNames = JSON.parse(localStorage.getItem("names")) || [];
+    updateNamesList(savedNames);
+
+    // Handle form submission
+    nameForm.addEventListener("submit", function(event) {
+        event.preventDefault();
+        
+        const name = nameInput.value.trim();
+        
+        if (name) {
+            savedNames.push(name);
+            localStorage.setItem("names", JSON.stringify(savedNames));
+            updateNamesList(savedNames);
+            nameInput.value = ''; // Clear the input field
+            message.textContent = "Name saved!";
+        } else {
+            message.textContent = "Please enter a valid name.";
+        }
+    });
+
+    // Function to update the names list in the UI
+    function updateNamesList(names) {
+        savedNamesList.innerHTML = '';
+        names.forEach((name) => {
+            const li = document.createElement('li');
+            li.textContent = name;
+            savedNamesList.appendChild(li);
+        });
+    }
+});
