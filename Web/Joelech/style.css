@@ -41,7 +41,34 @@ body
     background-attachment: fixed;
     background-position: 0;
     margin-top: 0;
+    background-color: ;
 }
+#Person{
+    height: 5vh;
+    width: 100vw;
+    background-color: black;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: stretch;
+    align-content: stretch;
+    justify-items: stretch;
+    align-items: stretch;
+    margin: 1;
+    font-size: 3vi;
+    color: white;
+    font-weight: 1000;
+}
+a{
+    text-decoration: none;
+    font-size: 3vi;
+}
+#female:hover{
+    scale: 1.05;
+}
+#male:hover{
+    scale: 1.05;
+}
+
 #joelech
 {
     padding: 3vw;
@@ -120,7 +147,7 @@ body {
 .marquee-container {
     overflow: hidden;
     white-space: nowrap;
-    width: 75%;
+    width: 100%;
     margin-top: 0%;
     display: none; /* Hidden by default */
 }
@@ -139,7 +166,7 @@ body {
 }
 /* Continuous scrolling */
 .marquee-active .marquee-content {
-    animation: continuousScroll 45s linear infinite;
+    animation: continuousScroll 15s linear infinite;
 }
 .marquee-content a {
     margin: 0 1%;
@@ -166,8 +193,7 @@ body {
     background-color: white;
 }
 #links{
-    display: grid;
-    grid-template-columns: 1fr 2fr;
+    display: flex;
     justify-content: center;
     align-content: center;
     justify-items: center;
@@ -176,6 +202,9 @@ body {
     padding: 1%;
     gap: 2%;
 }
-#links:hover{
-    margin-left: 5%;
+#page_Header{
+
+}
+#page_Footer{
+    
 }
