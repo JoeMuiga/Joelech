@@ -133,6 +133,10 @@ body {
     height: 5vh;
     width: 5vw;
 }
+#marquee img:hover{
+    height: 7.5vh;
+    width: 7.5vw;
+}
 .toggle-btn {
     padding: 1%;
     font-size: 18px;
