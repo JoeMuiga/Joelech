@@ -1,0 +1,244 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    scroll-behavior: smooth;
+}
+:root
+{ 
+    --bg-color: #000;
+    --snd-bg-color: #111;
+    --main-color: #FAF8EA;
+}
+body
+{
+    height: 90%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    margin-top: 0;
+}
+#block
+{
+    height: 90%;
+    width: 100%;
+}
+#page
+{
+    margin: 1%;
+    height: 60vh;
+    width: 90vw;
+    border-radius: 50%;
+    display: grid;
+    grid-template-rows: 1fr 2fr;
+    justify-content: space-evenly;
+    align-items: start;
+    gap: 0;
+    background-image: url(Joelech%20Background%20dynamic.png);
+    background-attachment: fixed;
+    background-position: 0;
+    margin-top: 0;
+}
+#Person{
+    height: 7.5vh;
+    width: 100vw;
+    background-color: black;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: stretch;
+    align-content: stretch;
+    justify-items: stretch;
+    align-items: stretch;
+    margin: 1;
+    font-size: 2vi;
+    color: white;
+    font-weight: 1000;
+}
+a{
+    text-decoration: none;
+    font-size: 2vi;
+}
+#female:hover{
+    scale: 1.05;
+}
+#male:hover{
+    scale: 1.05;
+}
+#joelech
+{
+    padding: 3vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#joelech img{
+    margin-left: 1%;
+    margin-right: 1%;
+    margin-top: 0;
+    width: 75vw;
+    height: 25vh;
+}
+#resources
+{
+    display: grid;
+    grid-template-columns: 4fr 2fr;
+    justify-items: center;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+#comment
+{
+    font-size: 2vi;
+    color: white;
+}
+#navigation
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+#navigation img{
+    height: 6vh;
+    width: 6vw;
+}
+#navigation div{
+    height: auto;
+    width: auto;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+div
+{
+    padding:  1%;
+}
+#navigation a{
+    color: white;
+    text-decoration: none;
+}
+#navigation a:hover{
+    color: grey;
+    scale: 1.1;
+}
+body {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+#marquee img{
+    height: 5vh;
+    width: 5vw;
+}
+.toggle-btn {
+    padding: 1%;
+    font-size: 18px;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    backdrop-filter: blur(5%);
+}
+.marquee-container {
+    overflow: hidden;
+    white-space: nowrap;
+    width: 100%;
+    margin-top: 0%;
+    display: none; /* Hidden by default */
+}
+.marquee-content {
+    display: inline-block;
+    margin-top: 0%;
+}
+/* Keyframe for continuous scrolling animation */
+@keyframes continuousScroll {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+/* Continuous scrolling */
+.marquee-active .marquee-content {
+    animation: continuousScroll 45s linear infinite;
+}
+.marquee-content a {
+    margin: 0 1%;
+    color: #333;
+    text-decoration: none;
+}
+.marquee-content a:hover {
+    color: #007bff;
+}
+/* General Styling */
+
+#Joelech_Image{
+    height: 25vh;
+    width: 25vw;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+}
+#Joelech_Image img{
+    height: 20vh;
+    width: 20vw;
+    background-color: white;
+}
+#links{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
+    align-items: center;
+    margin: 0;
+    padding: 1%;
+    gap: 2%;
+}
+.container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 25vw;
+}
+.container input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.container button {
+    width: 100%;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.container button:hover {
+    background-color: blue;
+}
+
+.container #savedNamesList {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.container #savedNamesList li {
+    padding: 5px;
+    border-bottom: 1px solid #ddd;
+    display: none;
+}
+#suggestion{
+    padding: 1%;
+    margin: 1%;
+}
